@@ -1,0 +1,107 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background:  hsl(240, 78%, 98%);
+    font-size: 15px;
+}
+
+  span{
+    margin-bottom: 10px;
+    margin: 10px;
+  }
+  h4{
+    font-size: 20px;
+ }
+  h5{
+      color:grey;
+  }
+  .fa{
+    color:  hsl(236, 72%, 79%);
+    font-size:30px;
+    margin-top: 10px;
+  }
+.container{
+      background:hsl(240, 78%, 98%);
+  }
+.master{
+    background:  white;
+    border-radius: 0px 19px 19px 0px;
+    height: 0%;
+}
+.professional{
+    background: white;
+    height: 0%;
+    border-radius: 12px;
+}
+.basic{
+    border-radius: 19px 0px 0px 19px;
+    height: 0%;
+    background:  white;
+}
+.btn-one{
+  background: hsl(236, 72%, 79%);
+  border: solid hsl(236, 72%, 79%) 1px;
+  padding: 8px;
+  color: white;
+  border-radius: 10px;
+}
+.btn-three{
+    background: hsl(236, 72%, 79%);
+    border: solid hsl(236, 72%, 79%) 1px;
+    padding: 8px;
+    color: white;
+    border-radius: 10px;
+ }
+.btn-two{
+    background: white;
+    border: solid hsl(236, 72%, 79%) 1px;
+    padding: 8px;
+    border-radius: 10px;
+    color: hsl(236, 72%, 79%);
+  }
+
+/* HOVER SECTION */
+
+ h4:hover{
+    font-size: 20px;
+    color: black;
+}
+
+
+.professional:hover {
+    font-size: 100%;
+    color: white;
+    background: hsl(236, 72%, 79%);
+}
+/* .btn-one:hover{
+    background: white;
+    border: solid hsl(236, 72%, 79%) 1px;
+    padding: 8px;
+    color: blue;
+    border-radius: 10px;
+  } */
+  /* .btn-three:hover{
+    background: white;
+    border: solid hsl(236, 72%, 79%) 1px;
+    padding: 8px;
+    color: blue;
+    border-radius: 10px;
+  } */
+  @media(max-width: 768px){
+    .master{
+        width: 100%;
+    }
+
+    h1{
+        font-size: px;
+    }
+    
+    .professional{
+      width: 100%;
+    }
+    
+    .basic{
+     width: 100%;
+    }
+  }
